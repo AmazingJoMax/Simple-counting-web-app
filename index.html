@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/resource/icon.png">
+    <title>counter app</title>
+    
+</head>
+    <body>
+        <input type="checkbox" class="toggle">
+            <div id="help-btn">?</div>
+            <div id="help-btn-close">+</div>
+            <div id="help-modal">
+                <div class="modal-info">
+                    <p>
+                        A handy Web App to count things 
+                    </p>
+                </div>
+            </div>
+        <div class="content">
+            <div class="head">
+                <h1>Counter</h1>
+            </div>
+                <div id="main">
+                        <h1 id="top-text">Count:</h1>
+                        <h2 id="num">0</h2>
+                    <div class="buttons">
+                        <button id="increment-btn" onclick="Increment()">Click</button>
+                        <button id="save-btn" onclick="save()">Save</button>
+                    </div>
+
+                </div>
+                 <div class="paragraph"> <p id="save-entries">Previous entries:  </p> </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html
